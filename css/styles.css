@@ -23,7 +23,7 @@ body {
 .header-logo {
   color: var(--IRIS, #4D5AE5);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -39,6 +39,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-menu-item{
+  background-color: #FFFFFF;
 }
 
 .header-menu-link {
@@ -61,7 +65,7 @@ letter-spacing: 0.02em;
 /*=========================================*/
 
 .contacts {
-  font-style:normal
+  font-style:normal;
 }
 
 .address-contacts-link {
@@ -81,7 +85,7 @@ letter-spacing: 0.02em;
 }
 
 .hero-title {
-  color: var(--WHITE, #FFF);
+  color: var(--WHITE, #FFFFFF);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -100,7 +104,7 @@ letter-spacing: 0.02em;
 }
 
 .hero-buy-btn:hover, .hero-buy-btn:focus {
-background-color: #404BBF;
+ color: #404BBF;
 }
 
 /* ================================= */
