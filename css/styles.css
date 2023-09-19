@@ -55,11 +55,11 @@ letter-spacing: 0.02em;
 }
 
 .header-menu-link:hover {
-  color: var(--OCEAN, #404BBF);
+  color: #404BBF;
 }
 
 .header-menu-link:focus {
-  color: var(--OCEAN, #404BBF);
+  color: #404BBF;
 }
 
 /*=========================================*/
@@ -104,7 +104,7 @@ letter-spacing: 0.02em;
 }
 
 .hero-buy-btn:hover, .hero-buy-btn:focus {
- color: #404BBF;
+ background-color: #404BBF;
 }
 
 /* ================================= */
@@ -151,6 +151,10 @@ letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  }
+
+  .our-list-item{
+    background-color: #FFFFFF;
   }
 
 .our-list-text {
